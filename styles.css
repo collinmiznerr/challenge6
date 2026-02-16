@@ -1,12 +1,11 @@
 body {
     margin: 0;
-    background: #f6f6ef;
+    background: #ffff;
     font-size: 13px
 }
 
 header {
-    background: #ff6600;
-    padding: 4px 8px;
+    background: none;
 }
 
 .top-bar {
@@ -14,6 +13,8 @@ header {
     margin: 0 auto;
     display: flex;
     align-items: center;
+    background: #ff6600;
+    padding: 4px 8px;
 }
 
 .logo {
@@ -22,4 +23,47 @@ header {
     font-weight: bold;
     padding: 2px 6px;
     margin-right: 8px;
+}
+
+.login {
+    margin-left: auto;
+    color: #000;
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 8px;
+    background: #f6f6ef;
+}
+
+ol {
+    margin: 0;
+    padding-left: 23px;
+}
+
+li {
+    margin-bottom: 13px
+}
+
+.story-title {
+    display: flex;
+    gap: 7px;
+    align-items: center;
+}
+
+.arrow {
+    color: #aaa;
+    font: 9px;
+}
+
+.site {
+    color: #828282;
+    font-size: 10px;
+}
+
+.story-meta {
+    margin-left: 18px;
+    font: 9px;
+    color: #828282;
 }
