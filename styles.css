@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    background: #f6f6ef;
+    font-size: 13px
+}
+
+header {
+    background: #ff6600;
+    padding: 4px 8px;
+}
+
+.top-bar {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
